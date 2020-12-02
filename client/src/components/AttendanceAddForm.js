@@ -9,12 +9,17 @@ const AttendanceAddForm = () => {
     setStartDate(date);
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(startDate);
+  };
+
   return (
-    <div>
+    <form onSubmit={handleSubmit}>
       <p>Pick your working date</p>
       <DatePicker selected={startDate} onChange={handleChange} showTimeSelect />
       <button type="submit">Submit</button>
-    </div>
+    </form>
   );
 };
 
