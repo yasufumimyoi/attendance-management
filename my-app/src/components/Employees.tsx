@@ -1,4 +1,3 @@
-import e from "express";
 import { useEffect, useState } from "react";
 import { EmployeesDetails } from "./EmployeesDetails";
 

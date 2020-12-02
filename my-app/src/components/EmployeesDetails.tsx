@@ -4,6 +4,8 @@ type Employee = {
   age: number;
 };
 
+//モーダル入れて編集出来るようにしたい
+
 const EmployeesDetails: React.FC<Employee> = ({ id, name, age }) => {
   return (
     <div>
