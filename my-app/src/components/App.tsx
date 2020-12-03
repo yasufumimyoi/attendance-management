@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 //import { Employees } from "./Employees";
-//import { EmployeesAddForm } from "./EmployeesAddForm";
+import { EmployeesAddForm } from "./EmployeesAddForm";
 import { Schedules } from "./Schedules";
 
 const App = () => {
@@ -12,6 +12,7 @@ const App = () => {
   return (
     <div>
       <Schedules />
+      <EmployeesAddForm />
     </div>
   );
 };
